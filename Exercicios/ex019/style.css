@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*tudo que em HTML é 'id' é '#' em CSS*/
+/*Tudo que é 'class' em HTML é '.' em CSS*/
+/*pode aplicar mais de uma classe no memso elemento*/
+/*mantém-se uma lógica de ordem. Primeiro tratamos os gerais, depois os mais específicos*/
+
+body{
+    background-color: #c9ffed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(6, 139, 95);
+}
+
+h1#principal{/*uma características*/
+    text-align: center;
+    background-color: rgb(6, 139, 95);
+    color: white;
+}
+h2{
+    color: rgb(54, 201, 152);
+}
+
+.basico{
+    color: blueviolet;
+}
+
+.intermediario{
+    color: blue;
+}
+
+.avancado{
+    color: black;
+}
